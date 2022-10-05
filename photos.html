@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <title>Photos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script> <!--for carousel-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+</head>
+
+<body class="bg-dark">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav ps-1 py-3">
+                    <h1 class="navbar-brand">KARINA</h1>
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a style="color: orange;" class="nav-link" href="photos.html">PHOTOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bio.html">BIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div id="demo" class="carousel slide p-3" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="photos/luau.jpeg" class="d-block w-100">
+                    <div class="carousel-caption"><h3>Wailua Park</h3></div> 
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="photos/nepali.jpeg" class="d-block w-100">
+                    <div class="carousel-caption"><h3>Nepail Ridge</h3></div> 
+                </div>
+
+                <div class="carousel-item">
+                    <img src="photos/garden.jpeg" class="d-block w-100">
+                    <div class="carousel-caption"><h3>Waimea Garden</h3></div> 
+                </div>
+
+                <div class="carousel-item">
+                    <img src="photos/spout.jpeg" class="d-block w-100">
+                    <div class="carousel-caption"><h3>Spouting Horn</h3></div> 
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container p-3">
+        <p class="text-bg-dark text-center">Etiam dignissim diam quis enim lobortis.</p>
+    </div>
+</body>
+</html>
